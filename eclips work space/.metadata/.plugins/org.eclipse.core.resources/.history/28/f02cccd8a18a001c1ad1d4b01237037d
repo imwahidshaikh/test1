@@ -1,0 +1,10 @@
+package prjct1;
+
+public class fiboo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

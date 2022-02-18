@@ -1,0 +1,19 @@
+
+package prjct1;
+
+public class ispriimeno {
+
+	public static void main(String[] args) {
+		int a= 5; 
+		for (int i=2;i<a;i++) {
+			if (a%i==0) {
+				System.out.println(a +" is not pirme no");
+			}
+			else {
+				System.out.println(a +" is pirme no");
+			}
+		}
+
+	}
+
+}

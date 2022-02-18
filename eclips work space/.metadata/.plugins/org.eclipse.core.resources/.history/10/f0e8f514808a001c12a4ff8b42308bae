@@ -1,0 +1,14 @@
+package prjct1;
+
+public class factorial {
+
+	public static void main(String[] args) {
+	// 3! = 3*2*1
+			for (int i=3 ; i>=1;i--) {
+			System.out.println(i);	
+				
+			}
+
+	}
+
+}

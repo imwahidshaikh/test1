@@ -1,0 +1,30 @@
+package prjct1;
+
+import java.util.Scanner;
+
+public class palindrome {
+
+	public static void main(String[] args) {
+		System.out.println("enter the number");
+		Scanner s= new Scanner(System.in);
+		int no = s.nextInt();
+		int m=no;
+		int a, b=0;
+		while(m!=0) {
+			a = m%10;
+//			b=b*10+a;
+			m=m/10;
+			System.out.print(a);
+			
+			
+		}
+		
+		
+		if (b==no) {	System.out.println(no + " is palindromenumber");
+		}
+		else {
+			System.out.println(no + " is not a palindromenumber");
+		}
+	}
+
+}

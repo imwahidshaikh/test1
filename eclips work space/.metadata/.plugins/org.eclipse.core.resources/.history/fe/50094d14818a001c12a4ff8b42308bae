@@ -1,0 +1,16 @@
+package prjct1;
+
+public class factorial {
+
+	public static void main(String[] args) {
+	int i;
+			for ( i=3 ; i>=1;i--) {
+			System.out.println(i);	
+			int f = i*i ;
+			System.out.println(f);
+				
+			}
+
+	}
+
+}
